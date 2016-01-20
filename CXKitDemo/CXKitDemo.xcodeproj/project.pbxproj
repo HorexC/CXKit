@@ -15,7 +15,7 @@
 		846EF1501C4F6487008F0CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846EF14E1C4F6487008F0CCE /* LaunchScreen.storyboard */; };
 		846EF15B1C4F6487008F0CCE /* CXKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EF15A1C4F6487008F0CCE /* CXKitDemoTests.m */; };
 		846EF1661C4F6487008F0CCE /* CXKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EF1651C4F6487008F0CCE /* CXKitDemoUITests.m */; };
-		846EF1761C4F64AB008F0CCE /* CXObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EF1751C4F64AB008F0CCE /* CXObject.m */; };
+		846EF17A1C4F6D42008F0CCE /* CXObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EF1791C4F6D42008F0CCE /* CXObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		846EF1611C4F6487008F0CCE /* CXKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846EF1651C4F6487008F0CCE /* CXKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXKitDemoUITests.m; sourceTree = "<group>"; };
 		846EF1671C4F6487008F0CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		846EF1741C4F64AB008F0CCE /* CXObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXObject.h; sourceTree = "<group>"; };
-		846EF1751C4F64AB008F0CCE /* CXObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXObject.m; sourceTree = "<group>"; };
+		846EF1781C4F6D42008F0CCE /* CXObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXObject.h; sourceTree = "<group>"; };
+		846EF1791C4F6D42008F0CCE /* CXObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		846EF1341C4F6486008F0CCE = {
 			isa = PBXGroup;
 			children = (
-				846EF1731C4F6498008F0CCE /* CXKit */,
+				846EF1771C4F6D42008F0CCE /* CXKit */,
 				846EF13F1C4F6487008F0CCE /* CXKitDemo */,
 				846EF1591C4F6487008F0CCE /* CXKitDemoTests */,
 				846EF1641C4F6487008F0CCE /* CXKitDemoUITests */,
@@ -144,11 +144,11 @@
 			path = CXKitDemoUITests;
 			sourceTree = "<group>";
 		};
-		846EF1731C4F6498008F0CCE /* CXKit */ = {
+		846EF1771C4F6D42008F0CCE /* CXKit */ = {
 			isa = PBXGroup;
 			children = (
-				846EF1741C4F64AB008F0CCE /* CXObject.h */,
-				846EF1751C4F64AB008F0CCE /* CXObject.m */,
+				846EF1781C4F6D42008F0CCE /* CXObject.h */,
+				846EF1791C4F6D42008F0CCE /* CXObject.m */,
 			);
 			path = CXKit;
 			sourceTree = "<group>";
@@ -286,7 +286,7 @@
 				846EF1481C4F6487008F0CCE /* ViewController.m in Sources */,
 				846EF1451C4F6487008F0CCE /* AppDelegate.m in Sources */,
 				846EF1421C4F6487008F0CCE /* main.m in Sources */,
-				846EF1761C4F64AB008F0CCE /* CXObject.m in Sources */,
+				846EF17A1C4F6D42008F0CCE /* CXObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +510,7 @@
 				846EF16C1C4F6487008F0CCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846EF16D1C4F6487008F0CCE /* Build configuration list for PBXNativeTarget "CXKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +519,7 @@
 				846EF16F1C4F6487008F0CCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846EF1701C4F6487008F0CCE /* Build configuration list for PBXNativeTarget "CXKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +528,7 @@
 				846EF1721C4F6487008F0CCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
