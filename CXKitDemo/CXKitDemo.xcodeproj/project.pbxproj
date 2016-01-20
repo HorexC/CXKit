@@ -16,6 +16,7 @@
 		846EF15B1C4F6487008F0CCE /* CXKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EF15A1C4F6487008F0CCE /* CXKitDemoTests.m */; };
 		846EF1661C4F6487008F0CCE /* CXKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EF1651C4F6487008F0CCE /* CXKitDemoUITests.m */; };
 		846EF17A1C4F6D42008F0CCE /* CXObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 846EF1791C4F6D42008F0CCE /* CXObject.m */; };
+		84E85B471C4F72B000E4AB48 /* CBNOAHWMDemo.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 84E85B461C4F72B000E4AB48 /* CBNOAHWMDemo.ipa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		846EF1671C4F6487008F0CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		846EF1781C4F6D42008F0CCE /* CXObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXObject.h; sourceTree = "<group>"; };
 		846EF1791C4F6D42008F0CCE /* CXObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXObject.m; sourceTree = "<group>"; };
+		84E85B461C4F72B000E4AB48 /* CBNOAHWMDemo.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = CBNOAHWMDemo.ipa; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		846EF1341C4F6486008F0CCE = {
 			isa = PBXGroup;
 			children = (
+				84E85B451C4F72B000E4AB48 /* CBDemo */,
 				846EF1771C4F6D42008F0CCE /* CXKit */,
 				846EF13F1C4F6487008F0CCE /* CXKitDemo */,
 				846EF1591C4F6487008F0CCE /* CXKitDemoTests */,
@@ -151,6 +154,14 @@
 				846EF1791C4F6D42008F0CCE /* CXObject.m */,
 			);
 			path = CXKit;
+			sourceTree = "<group>";
+		};
+		84E85B451C4F72B000E4AB48 /* CBDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84E85B461C4F72B000E4AB48 /* CBNOAHWMDemo.ipa */,
+			);
+			path = CBDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E85B471C4F72B000E4AB48 /* CBNOAHWMDemo.ipa in Resources */,
 				846EF1501C4F6487008F0CCE /* LaunchScreen.storyboard in Resources */,
 				846EF14D1C4F6487008F0CCE /* Assets.xcassets in Resources */,
 				846EF14B1C4F6487008F0CCE /* Main.storyboard in Resources */,
